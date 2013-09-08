@@ -1,0 +1,5 @@
+ak399's Ithildin Mod (quasi-fork of fishyWET's Lord of the Test mod)
+
+===
+
+All code in this project is licensed under the LGPL version 3 or later. That means you have unlimited freedom to distribute and modify the work however you see fit, provided that if you decide to distribute it or any modified versions of it, you must also use the same license. The LGPL also grants the additional freedom to write extensions for the software and distribute them without the extensions being subject to the terms of the LGPL, although the software itself retains its license.
