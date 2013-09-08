@@ -87,7 +87,9 @@ minetest.register_craft({
 	},
 })
 
-minetest.register_craft({
+--replacement doesn't work
+
+--[[minetest.register_craft({
 	output = "ithildin:ithildin_0",
 	recipe = {
 	{"ithildin:ithildin_stone_0", ""},
@@ -96,7 +98,7 @@ minetest.register_craft({
 	{"ithildin:ithildin_stone_0", ""},
 	{"", "default:stone"},
 	},
-})
+})]]
 
 --ithildin function
 
