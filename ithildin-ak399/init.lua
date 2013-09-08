@@ -34,7 +34,6 @@ minetest.register_node("ithildin:ithildin_stone_0", {
 	tiles = {"ithildin_stone_0.png"},
 	inventory_image = ("ithildin_stone_1.png"),
 	drawtype = 'normal',
---	post_effect_color = {a=191, r=0, g=0, b=127}
 	walkable = true,
 	pointable = true,
 	sunlight_propagates = false,
@@ -47,8 +46,8 @@ minetest.register_node("ithildin:ithildin_stone_0", {
 minetest.register_node("ithildin:ithildin_stone_1", {
 	description = "Ithildin Stone",
 	tiles = { 'ithildin_stone_1.png' },
-	drawtype = 'normal',
---	post_effect_color = { r=0, g=0, b=127, a=191 }
+	drawtype = 'glasslike',
+	post_effect_color = {a=63, r=223, g=255, b=223},
 	walkable = false,
 	pointable = true,
 	sunlight_propagates = true,
