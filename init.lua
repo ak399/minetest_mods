@@ -93,7 +93,7 @@ minetest.register_craft({
 	{"ithildin:ithildin_stone_0"},
 	},
 	replacements = {
-	{"ithildin:ithildin_stone_0" "default:stone"},
+	{"ithildin:ithildin_stone_0", "default:stone"},
 	},
 })
 
