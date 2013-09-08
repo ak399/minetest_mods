@@ -3,6 +3,7 @@ minetest.register_node("ithildin:ithildin_0", {
 	description = "Ithildin",
 	tiles = { 'ithildin_0.png' },
 	inventory_image = ("ithildin_1.png"),
+	wield_image = ("ithildin_1.png"),
 	drawtype = 'glasslike',
 	walkable = false,
 	pointable = false,
@@ -16,6 +17,8 @@ minetest.register_node("ithildin:ithildin_0", {
 minetest.register_node("ithildin:ithildin_1", {
 	description = "Ithildin",
 	tiles = { 'ithildin_1.png' },
+	inventory_image = ("ithildin_1.png"),
+	wield_image = ("ithildin_1.png"),
 	drawtype = 'glasslike',
 	walkable = true,
 	pointable = true,
@@ -33,6 +36,7 @@ minetest.register_node("ithildin:ithildin_stone_0", {
 	description = "Ithildin Stone",
 	tiles = {"ithildin_stone_0.png"},
 	inventory_image = ("ithildin_stone_1.png"),
+	wield_image = ("ithildin_stone_1.png"),
 	drawtype = 'normal',
 	walkable = true,
 	pointable = true,
@@ -46,6 +50,8 @@ minetest.register_node("ithildin:ithildin_stone_0", {
 minetest.register_node("ithildin:ithildin_stone_1", {
 	description = "Ithildin Stone",
 	tiles = { 'ithildin_stone_1.png' },
+	inventory_image = ("ithildin_stone_1.png"),
+	wield_image = ("ithildin_stone_1.png"),
 	drawtype = 'glasslike',
 	post_effect_color = {a=63, r=223, g=255, b=223},
 	walkable = false,
