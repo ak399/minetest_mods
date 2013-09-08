@@ -1,1 +1,1 @@
-rename the folder to ithildin to get it to work.
+Ignore any and all files in this directory
