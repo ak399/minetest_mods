@@ -73,6 +73,15 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "ithildin:ithildin_stone_0",
 	recipe = {
+	{"default:torch", "moreores:mithril_ingot", "default:torch"},
+	{"default:glass", "default:stone", "default:glass"},
+	{"default:torch", "moreores:mithril_ingot", "default:torch"},
+	},
+})
+
+minetest.register_craft({
+	output = "ithildin:ithildin_stone_0",
+	recipe = {
 	{"ithildin:ithildin_0"},
 	{"default:stone"},
 	},

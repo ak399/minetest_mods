@@ -92,7 +92,7 @@ minetest.register_craft({
 	recipe = {
 	{"ithildin:ithildin_stone_0"},
 	},
-	replacement = {
+	replacements = {
 	{"default:stone"},
 	},
 })
