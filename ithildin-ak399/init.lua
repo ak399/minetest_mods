@@ -2,13 +2,13 @@
 minetest.register_node("ithildin:ithildin_0", {
 	description = "Ithildin",
 	tiles = { 'ithildin_0.png' },
-	inventory_image = ("ithildin_1.png"),
---	wield_image = ("ithildin_1.png"),
+	inventory_image = {"ithildin_1.png"},
+--	wield_image = {"ithildin_1.png"},
 	drawtype = 'glasslike',
 	walkable = false,
 	pointable = false,
 	sunlight_propagates = true,
-	drop = "ithildin:ithildin_1",
+	drop = "ithildin:ithildin_0",
 	groups = {snappy=2,cracky=3},
 	sounds = default.node_sound_glass_defaults(),
 	furnace_burntime = 4,
@@ -17,14 +17,14 @@ minetest.register_node("ithildin:ithildin_0", {
 minetest.register_node("ithildin:ithildin_1", {
 	description = "Ithildin",
 	tiles = { 'ithildin_1.png' },
-	inventory_image = ("ithildin_1.png"),
---	wield_image = ("ithildin_1.png"),
+	inventory_image = {"ithildin_1.png"},
+--	wield_image = {"ithildin_1.png"},
 	drawtype = 'glasslike',
 	walkable = true,
 	pointable = true,
 	sunlight_propagates = true,
 	light_source = 8,
-	drop = "ithildin:ithildin_1",
+	drop = "ithildin:ithildin_0",
 	groups = {snappy=2,cracky=3},
 	sounds = default.node_sound_glass_defaults(),
 	furnace_burntime = 4,
@@ -35,13 +35,13 @@ minetest.register_node("ithildin:ithildin_1", {
 minetest.register_node("ithildin:ithildin_stone_0", {
 	description = "Ithildin Stone",
 	tiles = {"ithildin_stone_0.png"},
-	inventory_image = ("ithildin_stone_1.png"),
---	wield_image = ("ithildin_stone_1.png"),
+	inventory_image = {"ithildin_stone_1.png"},
+--	wield_image = {"ithildin_stone_1.png"},
 	drawtype = 'normal',
 	walkable = true,
 	pointable = true,
 	sunlight_propagates = false,
-	drop = "ithildin:ithildin_stone_1",
+	drop = "ithildin:ithildin_stone_0",
 	groups = {snappy=2,cracky=3},
 	sounds = default.node_sound_glass_defaults(),
 	furnace_burntime = 4,
@@ -58,7 +58,7 @@ minetest.register_node("ithildin:ithildin_stone_1", {
 	pointable = true,
 	sunlight_propagates = true,
 	light_source = 8,
-	drop = "ithildin:ithildin_stone_1",
+	drop = "ithildin:ithildin_stone_0",
 	groups = {snappy=2,cracky=3},
 	sounds = default.node_sound_glass_defaults(),
 	furnace_burntime = 4,
@@ -67,7 +67,7 @@ minetest.register_node("ithildin:ithildin_stone_1", {
 --craft
 
 minetest.register_craft({
-	output = "ithildin:ithildin_1",
+	output = "ithildin:ithildin_0",
 	recipe = {
 	{"default:torch", "moreores:mithril_ingot", "default:torch"},
 	{"default:glass", "", "default:glass"},
@@ -76,7 +76,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "ithildin:ithildin_stone_1",
+	output = "ithildin:ithildin_stone_0",
 	recipe = {
 	{"default:torch", "moreores:mithril_ingot", "default:torch"},
 	{"default:glass", "default:stone", "default:glass"},
@@ -85,7 +85,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "ithildin:ithildin_stone_1",
+	output = "ithildin:ithildin_stone_0",
 	recipe = {
 	{"ithildin:ithildin_1"},
 	{"default:stone"},
@@ -95,12 +95,12 @@ minetest.register_craft({
 --replacement doesn't work
 
 --[[minetest.register_craft({
-	output = "ithildin:ithildin_1",
+	output = "ithildin:ithildin_0",
 	recipe = {
-	{"ithildin:ithildin_stone_1", ""},
+	{"ithildin:ithildin_stone_0", ""},
 	},
 	replacements = {
-	{"ithildin:ithildin_stone_1", ""},
+	{"ithildin:ithildin_stone_0", ""},
 	{"", "default:stone"},
 	},
 })]]
