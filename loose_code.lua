@@ -2,7 +2,6 @@
 
 --
 -- CHAT COMMANDS:
--- Put these in minetest/builtin/chatcommands.lua.
 --
 
 --add gettime
@@ -36,5 +35,17 @@ minetest.register_chatcommand("respawn", {
 		end
 	end
 })
+
+--end addition
+
+--
+-- DEATH NOTICE:
+--
+
+--add death notice
+
+minetest.register_on_dieplayer(function(player)
+	minetest.chat_send_all(player:get_player_name().." died.")
+end)
 
 --end addition
