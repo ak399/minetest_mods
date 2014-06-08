@@ -1,0 +1,61 @@
+Lever
+Wheel/Axle
+Pulley
+Inclined Plane
+Wedge
+Screw
+Gear
+Nut
+Belt
+
+copper = c
+stick = s
+string = r
+paper = P
+nothing = x
+
+Lever (l)
+i
+c = l*2
+
+Wheel/Axle (W)
+x c x
+c s c = W*4
+x c x
+
+Pulley (p)
+W
+r = p*2
+W
+
+Inclined Plane (i)
+x x c
+x c x = i*3
+c x x
+
+Wedge (w)
+i i = w*2
+
+Screw (S)
+c x
+x c = S*3
+c x
+
+Gear (g)
+x c x
+c W c = W*5
+x c x
+
+Nut (n)
+S
+c = n, return Screw
+
+Belt (b)
+r P r
+W x W = b*2, return W
+r P r
+
+
+
+
+

@@ -1,0 +1,1 @@
+dofile(minetest.get_modpath("safr_simple_machines").."/components.lua")
