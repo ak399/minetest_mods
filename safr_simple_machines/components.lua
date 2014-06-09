@@ -110,7 +110,7 @@ minetest.register_craft({
 	},
 	replacements = {
 		{"safr_simple_machines:screw", "safr_simple_machines:screw"},
-	}
+	},
 })
 
 minetest.register_craftitem("safr_simple_machines:belt", {
@@ -127,5 +127,6 @@ minetest.register_craft({
 	},
 	replacements = {
 		{"safr_simple_machines:wheel_and_axle", "safr_simple_machines:wheel_and_axle"},
-	}
+		{"safr_simple_machines:wheel_and_axle", "safr_simple_machines:wheel_and_axle"},
+	},
 })
